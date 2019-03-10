@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Práctica 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesjhar.css">
+    </head>
+    <body>
+        <ul>
+            <li>
+                <b>
+                    Formulario con Servlet - Práctica 2
+                </b>
+            </li>
+	</ul>
+        <form action="/Practica_2/Practica2" method="POST">
+            Nombres:
+            <input type="text" value="Jorge Alejandro" name="names" size="40" maxlength="35" autofocus>
+            Apellidos:
+            <input type="text" value="Herrera Ramos" name="lastnames" size="40" maxlength="35">
+            Nombre de usuario:
+            <input type="text" value="Username" name="user" maxlength="15">
+            Correo electrónico:
+            <input type="email" value="example@example.com" name="email" size="40" maxlength="55">
+            Contraseña:
+            <input type="password" value="pass" name="pass" size="35" maxlength="60">
+            Fecha de nacimiento:
+            <input type="date" name="cumple" value="2000-11-27">
+            <input type="submit" value="Enviar registro">
+            <input type="reset" value="Reiniciar registro">
+        </form>
+    </body>
+</html>
