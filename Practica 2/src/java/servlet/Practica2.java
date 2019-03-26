@@ -38,7 +38,7 @@ public class Practica2 extends HttpServlet {
             out.println("<title>Servlet Practica2</title>");
             out.println("<meta charset=\"UTF-8\">");
             out.println("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
-            out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/stylesjhar.css\">");
+            out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesP2.css\">");
             out.println("</head>");
             out.println("<body>");
             out.println("<ul>");
