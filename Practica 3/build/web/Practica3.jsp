@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="../src/java/CSS/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Styles3.css" rel="stylesheet" type="text/css"/>
         <title>Practica 3</title>
     </head>
     <body>
