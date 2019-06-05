@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Adivina el número</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/csslab5.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body id="body">
+        <h1>
+            Adivina el número.<br>
+        </h1>
+        <h2>
+            Las instrucciones son sencillas, ingresa un número entre el 1 y el 5 en el cuadro de aquí abajo.<br>
+            A continuación da click en "Ver si adiviné el número".<br>
+            Se te mostrará una página con dicha respuesta.
+        </h2>
+        <form action="/lab5/AciertaControlador">
+            <input type="text" id="numeroDelJugador" name="numeroDelJugador" maxlength="1" size="1">
+            <input type="submit" value="Ver si adiviné el número" id="botonDeEnviar">
+        </form>
+    </body>
+</html>

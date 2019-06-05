@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/05/2019, 03:10:44 AM
+    Author     : Jorge
+*/
+#body{
+    background-color: hsla(220,100%,10%,0.8);
+    color: white;
+    margin: 10vw;
+}
+div{
+    font-size: 40px;
+    padding: 5vw;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#ganando{
+    background-color: hsla(120,100%,30%,0.3);
+    color: background;
+    margin: 10vw;
+}
+#perdiendo{
+    background-color: hsla(20,100%,10%,1);
+    color: white;
+    margin: 10vw;
+}
+#error{
+    background-color: hsla(0,0%,0%,0.3);
+    color: background;
+    margin: 10vw;
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#numeroDelJugador{
+    margin-left: 36vw;
+    margin-right: 30vw;
+}
+#botonDeEnviar{
+    margin-left: 32vw;
+    margin-right: 30vw;
+    margin-top: 4vw;
+}
